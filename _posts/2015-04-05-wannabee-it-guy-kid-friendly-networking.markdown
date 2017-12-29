@@ -19,7 +19,7 @@ If you are unfamiliar with the concepts of Internet Protocol (IP) [[1](http://en
 
 In short, there are four principle concepts you should be familiar with: name, address, port, and protocol. 
 
-The name, http://google.com, is an alias to a real location, the IP address [74.125.228.226](http://74.125.228.226). Try clicking on the two links, you'll find they open the same page. You can think of this in terms of "John's House" and "1234 Main St, Metropolis ST, 55000". If you don't know where John lives, you will have to look it up. When you attempt to go to http://google.com, your computer first asks a DNS for the IP Address, which returns 74.125.228.226. The IP Address is formed from four 8-bit values called octets, which can be any number between 0 and 255. IP Addresses can be self-assigned by devices according to the rules of the network (called a static IP Address), or they can be requested by the device and assigned by a service running on the network called Dynamic Host Configuration Protocol (DHCP).
+The name, <http://google.com>, is an alias to a real location, the IP address [74.125.228.226](http://74.125.228.226). Try clicking on the two links, you'll find they open the same page. You can think of this in terms of "John's House" and "1234 Main St, Metropolis ST, 55000". If you don't know where John lives, you will have to look it up. When you attempt to go to http://google.com, your computer first asks a DNS for the IP Address, which returns 74.125.228.226. The IP Address is formed from four 8-bit values called octets, which can be any number between 0 and 255. IP Addresses can be self-assigned by devices according to the rules of the network (called a static IP Address), or they can be requested by the device and assigned by a service running on the network called Dynamic Host Configuration Protocol (DHCP).
 
 > Networks are a set of IP Addresses that can talk directly to each other. For example, the 192.168.1.0/24 network describes all IP Addresses between 192.168.1.1 and 192.168.1.255. The 24 indicates that the first 24 bits, three octets, of the network address are fixed and the last octet is used to identify the devices on the network. Devices on one network can only talk to devices on another network through devices called routers and bridges. In a typical home network, the router will have two IP Addresses: one on the public Internet assigned by an Internet Service Provider, and one on the Local Area Network (LAN) which is used to communicate with all the devices in the home. The router acts as a middleman who arbitrates all communications between all the devices in your home and the Internet.
 
@@ -27,7 +27,7 @@ In the http://google.com example above, the "http" term refers to port 80 on the
 
 Protocol is harder to put in common terms, but you can think of it as the means of transportation. You can ride a bike or drive to John's house. On the Internet, the vast majority of traffic travels over TCP [[3](http://en.wikipedia.org/wiki/Transmission_Control_Protocol)] and UDP [[4](http://en.wikipedia.org/wiki/User_Datagram_Protocol)].
 
-If, for example, you didn't want your children to access http://google.com, you could block that site using some service or application, but it may not prevent them from accessing http://74.125.228.226, which provides the exact same content. If you use software that filters traffic based on ports, it won't be effective on websites running on alternative ports (many web services run on ports other than 80, and site deliberately looking to circumvent your security measure will certainly consider this option). John's Mom may have locked the front door, but she forgot about the bathroom window...
+If, for example, you didn't want your children to access http://google.com, you could block that site using some service or application, but it may not prevent them from accessing http://74.125.228.226, which provides the exact same content. If you use software that filters traffic based on ports, it won't be effective against websites running on alternative ports (many web services run on ports other than 80, and sites deliberately looking to circumvent your security measures will certainly consider this option). John's Mom may have locked the front door, but she forgot about the bathroom window...
 
 Finally, be aware that you likely have at least two points of access to the Internet in your home. The first is your broadband connection which your computers and laptops use, likely over Wi-Fi. The second will be your cellular devices with 3G or LTE data plans. While these device may use your Wi-Fi for a faster signal while in the home, they can easily be setup to use the cellular data network, bypassing any controls you have setup on your home router.
 
@@ -81,7 +81,7 @@ Next, I create a new DHCP server to service the 192.168.3.0/24 network. This ass
 ![]({{ "/assets/kidsvlan/erl-services-kids-dhcp.png" | absolute_url }})
 
 ### ToughSwitch 5 PoE
-In my case, there is an Ethernet switch between my router and my wireless access points (AP). If your APs are integrated with or connected directly to your router, you can skip this section. 
+In my case, there is a managed Ethernet switch between my router and my wireless access points (AP). If your APs are connected directly to your router, you may have similar controls in your router's administrative interface. If your APs are integrated with your router, you can likely skip this section entirely as there will be no ports to tag. 
 
 Whenever a VLAN passes through a switch, that switch needs to be told how to handle the VLANs. VLAN management is a complicated technical subject made all the more confusing by network equipment vendors using different terminology and mechanisms to accomplish the same thing.
 
@@ -96,7 +96,7 @@ By creating a new SSID and assigning it to VLAN 3, they are isolated to the 192.
 
 ![]({{ "/assets/kidsvlan/unifi-ssid-vlan.png" | absolute_url }})
 
-After setting up the new SSID, be sure to "forget" the previous wireless network on all the kids' devices. It's a good idea to use different security key each SSID since if they were to connect to the primary SSID, the DNS filtering would no longer apply.
+After setting up the new SSID, be sure to "forget" the previous wireless network on all the kids' devices. It's a good idea to use a different security key for each SSID since if they were to connect to the primary SSID, the DNS filtering would no longer apply.
 
 ## Alternatives
 There are many approaches to filtering Internet content for children.
