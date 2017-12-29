@@ -2,7 +2,7 @@
 layout: post
 title:  "Accountability"
 date:   2015-03-09
-categories: insights
+tags: insights
 ---
 I had an amazing week. I didn’t plan it. I was exhausted. Physically drained. Stretched beyond breaking mentally. Emotionally checked out. I took a week off (nobody objects when you forget to use your vacation for a year). The kids were in school. My wife had a full week of volunteering and her other regular activities attend to. I took a week to recover, to get my “A game” back.
 
