@@ -1,9 +1,3 @@
-
-Wannabee IT Guy: Kid Friendly Networking
-===
-
-Table of Contents
-===
 * TOC
 {:toc}
 

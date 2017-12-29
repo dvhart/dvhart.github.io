@@ -1,8 +1,3 @@
-Wannabee Architect: Visualization
-===
-
-Table of Contents
----
 * TOC
 {:toc}
 
