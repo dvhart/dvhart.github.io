@@ -67,7 +67,7 @@ This example from my home network uses Ubiquiti networking equipment, including:
  - [ToughSwitch 5 POE](https://www.ubnt.com/accessories/toughswitch/)
  - [UniFi Access Points](https://www.ubnt.com/unifi/unifi-ap/)
 
-EdgeRouter LIte
+EdgeRouter Lite
 ---
 My primary LAN network is 192.168.1.0/24, and uses the Google DNS [[6](https://developers.google.com/speed/public-dns/docs/intro)] servers by default, with a third fallback to the DNS provided by my Internet Service Provider (ISP):
 
