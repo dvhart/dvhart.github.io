@@ -48,7 +48,7 @@ OpenDNS [[5](http://www.opendns.org)] offers a DNS filtering service with variou
 
 Once signed up, you can easily set the filtering level and manage individual domains (sites). In the example below, I chose the most restrictive level and added the two time-wasters my youngest immediately asked for after receiving the restricted content page:
 
-![]({{ site.url }}/assets/kidsvlan/opendns.png)
+![]({{ "/assets/kidsvlan/opendns.png" | absolute_url }})
 
 VLAN Example
 ===
@@ -70,7 +70,7 @@ EdgeRouter LIte
 ---
 My primary LAN network is 192.168.1.0/24, and uses the Google DNS [[6](https://developers.google.com/speed/public-dns/docs/intro)] servers by default, with a third fallback to the DNS provided by my Internet Service Provider (ISP):
 
-![]({{ site.url }}/assets/kidsvlan/erl-system-dns.png)
+![]({{ "/assets/kidsvlan/erl-system-dns.png" | absolute_url }})
 
 In my example, the protected VLAN ID is 3, and I create a second internal network 192.168.3.0/24 exclusively for it.
 
@@ -78,11 +78,11 @@ In my example, the protected VLAN ID is 3, and I create a second internal networ
 
 When creating a VLAN, you need to ensure your router has an IP Address on that VLAN in addition to the IP Address it has on the primary LAN. It also needs to provide a DHCP server for that VLAN.  The router is typically assigned the first IP Address on the network. In this case, 192.168.3.1.
 
-![]({{ site.url }}/assets/kidsvlan/erl-interface-vlan.png)
+![]({{ "/assets/kidsvlan/erl-interface-vlan.png" | absolute_url }})
 
 Next, I create a new DHCP server to service the 192.168.3.0/24 network. This assigns IP Addresses to the kids' client machines and instructs them to use the OpenDNS servers (see DNS1 and DNS2 in the dialog box below).
 
-![]({{ site.url }}/assets/kidsvlan/erl-services-kids-dhcp.png)
+![]({{ "/assets/kidsvlan/erl-services-kids-dhcp.png" | absolute_url }})
 
 ToughSwitch 5 PoE
 ---
@@ -92,7 +92,7 @@ Whenever a VLAN passes through a switch, that switch needs to be told how to han
 
 Generally speaking, you need to configure your switch to allow the VLAN tagging to pass through the switch by enabling the VLAN on the port it arrives at and the uplink port to the router. In my case, I set each port to "T" (tag) for VLAN 3.
 
-![]({{ site.url }}/assets/kidsvlan/toughswitch-vlan.png)
+![]({{ "/assets/kidsvlan/toughswitch-vlan.png" | absolute_url }})
 
 UniFi Controller
 ---
@@ -100,7 +100,7 @@ The kids connect to the Internet exclusively over Wi-Fi in our home, they have n
 
 By creating a new SSID and assigning it to VLAN 3, they are isolated to the 192.168.3.0/24 network. This means as their machines request an IP Address from the router, they will receive it from the new DHCP server using the OpenDNS name servers.
 
-![]({{ site.url }}/assets/kidsvlan/unifi-ssid-vlan.png)
+![]({{ "/assets/kidsvlan/unifi-ssid-vlan.png" | absolute_url }})
 
 After setting up the new SSID, be sure to "forget" the previous wireless network on all the kids' devices. It's a good idea to use different security key each SSID since if they were to connect to the primary SSID, the DNS filtering would no longer apply.
 
