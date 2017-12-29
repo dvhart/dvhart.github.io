@@ -149,10 +149,13 @@ Second, while accuracy is important, avoid trying to make it more accurate than 
 
 Geolocation
 ===
+
 Google Terrain
 ---
+
 Axes
 ---
+
 Modeling
 ===
 > Never model with geometry what you can accomplish with a texture.
@@ -160,28 +163,40 @@ Modeling
 
 Raising the Floorplan
 ---
+
 Windows and Doors
 ---
+
 Trim
 ---
 Follow-me tool...
+
 Cabinets
 ---
+
 Neighboring Homes
 ---
+
 Textures
 ===
+
 Photographic Projection
 ---
+
 Creating Your Own Textures
 ---
+
 Resources
 ---
+
 Photo-realistic Rendering
 ===
+
 Concepts
 ---
+
 Kerkythea
 ---
+
 Thea Render
 ---
