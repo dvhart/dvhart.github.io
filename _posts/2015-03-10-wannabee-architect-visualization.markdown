@@ -3,7 +3,8 @@ Wannabee Architect: Visualization
 
 Table of Contents
 ---
-[TOC]
+* TOC
+{:toc}
 
 SketchUp Basics
 ===

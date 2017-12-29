@@ -4,7 +4,8 @@ Wannabee IT Guy: Kid Friendly Networking
 
 Table of Contents
 ===
-[TOC]
+* TOC
+{:toc}
 
 Realistic Expectations
 ===
