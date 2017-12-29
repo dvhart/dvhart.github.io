@@ -1,3 +1,9 @@
+---
+layout: post
+title:  "Wannabee IT Guy: Kid Friendly Networking"
+date:   2015-04-05
+categories: networking parenting
+---
 * TOC
 {:toc}
 
