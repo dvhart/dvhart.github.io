@@ -7,14 +7,12 @@ categories: sketchup thea architecture remodel
 * TOC
 {:toc}
 
-SketchUp Basics
-===
+## SketchUp Basics
 [SketchUp](http://www.sketchup.com/), by Trimble, makes 3D visualization available to the layman. The intuitive drawing interface takes a lot of the frustration out of learning to model as well as making the process very efficient. SketchUp is optimized for modeling objects comprised of a lot of right angles (although it also simplifies angles and arcs). This makes it the ideal tool for woodworking and architectural visualization.
 
 A wealth of howtos and videos exist, with many available from the SketchUp home page. These are a valuable resource and I encourage you to browse them and get a feel for what is available. This document is intended to be a task-specific guide to get you up and modeling a physical structure for visualizing new construction, remodeling, or just playing with a concept.
 
-Basic Modeling
----
+### Basic Modeling
 Your first time into SketchUp, you will see an empty scene, with three colored axes and a 2D cardboard cutout of a person at the origin. Those axes are key to everything you will do in SketchUp. Let us draw a simple cube.
 
 Select the **line tool** from the toolbar. Click anywhere on the ground plane to start drawing a line. You will see the line follows your cursor. As you move the cursor around, it will snap to a line parallel to the red, green, or blue axis. Move the cursor until it snaps along a green line. 
@@ -59,8 +57,7 @@ To illustrate a point, choose the **select** tool and click on a single edge. Th
 
 This is good for modeling solid objects, but not so good when distinct objects touch each other. For example, if you were to create another face and place it in the same plane as our objects base, the base would intersect the plane and they would be fused together.
 
-Groups
----
+### Groups
 In order to organize your scene and to keep objects from fusing to one another, you can group them. If you have experience with a vector graphics application (such as Inkscape, Corel Draw, or Adobe Illustrator), the concept is pretty much the same.
 
 Choose the **select** tool again. Click on any edge of the object, it will turn blue. Now right click on the edge and select **Select all connected**. The entire object, edges and faces, should now be blue.
@@ -77,8 +74,7 @@ To edit either object, double click on it. The rest of the scene will wash out a
 
 > When copying groups, a new independent object is created.
 
-Components
----
+### Components
 It would be useful to be able to create objects that were not just independent copies of one another, but that came from the same template. This is done through what SketchUp calls **components**.
 
 Delete one of the objects from the *Groups* exercise. Select the remaining object, right click, and choose **Explode**. This will remove the group container and restore the contents to the main scene.
@@ -89,8 +85,7 @@ Follow the same steps from *Groups* to make a copy of the object and edit one of
 
 > You can make a copy of a component unique by selecting it, right clicking, and selecting **Make Unique**
 
-Layers
----
+### Layers
 As your scene grows in complexity, you will find it useful to organize it in a logical way, allowing you to limit the amount of visible geometry (for performance reasons as well as visual noise), as well as experiment with different ideas.
 
 **Layers** in SketchUp allow you to place geometry, objects, and components in logical collections. You can then select which layers are visible at any given time using the **Layers** window.
@@ -105,26 +100,22 @@ To model or copy objects into a specific layer, open the **Layers** window and s
 
 To modify which layers are visible, toggle the checkbox by each layer in the **Layers** window.
 
-Getting Around
----
+### Getting Around
 SketchUp offers various tools to get around the scene. In order to view the other side of an object or just center an object in your screen. You will find Pan/Zoom [sic] and Helicopter [sic] mode in the toolbar, and Walkthrough [sic] in the menu. I do not use any of these very much. If you plan to spend more than about ten minutes with SketchUp, do yourself a favor and buy a six-axis [3D Space Navigator](http://www.3dconnexion.com/products/spacemouse/spacenavigator.html) from 3D Connexion.
 
 With a little practice, you will stop thinking about moving around the scene completely as it becomes second nature. Right hand on the mouse, left hand on the Space Navigator.
 
 > The 3D Space Navigator is the single most important accessory you can buy to improve your experience with SketchUp.
 
-Advanced Modeling
----
+### Advanced Modeling
 TODO
  - Alt Move
  - Parallel snap
  - Guides
  - Temporary geometry
 
-Footprint
-===
-Template
----
+## Footprint
+### Template
 Before starting into modeling anything beyond our test shape above, we need to discuss scale and templates. SketchUp uses real-world units (inches and feet, centimeters and meters) as well as geographically accurate location in order to correctly cast sun generated shadows and optionally place your model in Google Earth.
 
 Depending on your preference for metric or imperial units, select a SketchUp **template** designed for **Architectural** work. [sic]
@@ -133,8 +124,7 @@ Depending on your preference for metric or imperial units, select a SketchUp **t
 
 Everything in your model will use real-world units, not scaled units. If you want to place a 1 meter by 1 meter cube in the scene, you will specify those dimensions exactly.
 
-Measuring
----
+### Measuring
 Before getting started in SketchUp, you will need to either have scale drawings of your project or take the measurements yourself.
 
 If you are doing it yourself, consider using a 2D CAD tool, like [QCAD by Ribbonsoft](http://www.qcad.org/en/). 2D CAD tools are useful for discussing purely structural concepts with tradespeople.
@@ -149,56 +139,39 @@ Second, while accuracy is important, avoid trying to make it more accurate than 
 
 >Be as accurate as possible in your measurements, but no more than that.
 
-Geolocation
-===
+## Geolocation
 
-Google Terrain
----
+### Google Terrain
 
-Axes
----
+### Axes
 
-Modeling
-===
+## Modeling
 > Never model with geometry what you can accomplish with a texture.
 > *The corollary for SketchUp is to never model yourself what you can lift from the 3D Warehouse.*
 
-Raising the Floorplan
----
+### Raising the Floorplan
 
-Windows and Doors
----
+### Windows and Doors
 
-Trim
----
+### Trim
 Follow-me tool...
 
-Cabinets
----
+### Cabinets
 
-Neighboring Homes
----
+### Neighboring Homes
 
-Textures
-===
+## Textures
 
-Photographic Projection
----
+### Photographic Projection
 
-Creating Your Own Textures
----
+### Creating Your Own Textures
 
-Resources
----
+### Resources
 
-Photo-realistic Rendering
-===
+## Photo-realistic Rendering
 
-Concepts
----
+### Concepts
 
-Kerkythea
----
+### Kerkythea
 
-Thea Render
----
+### Thea Render
