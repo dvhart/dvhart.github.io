@@ -2,11 +2,9 @@
 title:  "Wannabee Architect: Visualization"
 date:   2015-03-10
 layout: single
+toc: true
 tags: sketchup thea architecture remodel
 ---
-* TOC
-{:toc}
-
 ## SketchUp Basics
 [SketchUp](http://www.sketchup.com/), by Trimble, makes 3D visualization available to the layman. The intuitive drawing interface takes a lot of the frustration out of learning to model as well as making the process very efficient. SketchUp is optimized for modeling objects comprised of a lot of right angles (although it also simplifies angles and arcs). This makes it the ideal tool for woodworking and architectural visualization.
 

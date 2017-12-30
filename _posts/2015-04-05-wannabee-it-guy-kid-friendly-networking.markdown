@@ -2,11 +2,9 @@
 title:  "Wannabee IT Guy: Kid Friendly Networking"
 date:   2015-04-05
 layout: single
+toc: true
 tags: networking parenting
 ---
-* TOC
-{:toc}
-
 ## Realistic Expectations
 We can't realistically protect our kids from everything, and there is value in a controlled exposure to the broader world. The Internet is a place containing anything and everything and is becoming easier and easier to access. If, as parents, we deny access to our children, they will eventually find it elsewhere as access becomes ubiquitous: at a friend's house, at a coffee shop, or from a non-techy neighbor with an open access point. The best we can do is introduce them to the Internet gradually and construct sufficient safeguards to make it less likely for them to accidentally stumble into something awful and make it harder for predators to reach them.
 
