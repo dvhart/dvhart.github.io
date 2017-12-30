@@ -78,3 +78,4 @@ defaults:
       share: true
       related: true
       toc_label: Contents
+      toc_icon: list
