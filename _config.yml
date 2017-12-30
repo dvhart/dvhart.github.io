@@ -25,7 +25,10 @@ github_username: dvhart
 # Build settings
 markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
+#minimal_mistakes_skin: dark
 minimal_mistakes_skin: contrast
+#minimal_mistakes_skin: neon
+#minimal_mistakes_skin: dirt
 
 # Outputting
 # permalink: date # the default, same as below:
@@ -79,3 +82,7 @@ defaults:
       related: true
       toc_label: Contents
       toc_icon: list
+      header:
+        #overlay_image: /assets/images/PLACEHOLDER-FOR-WINDMILL-IMAGE
+        overlay_filter: rgba(0, 0, 0, 0.25)
+        caption: "So many windmills. So few flamethrowers."
