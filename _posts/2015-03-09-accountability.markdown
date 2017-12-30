@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "Accountability"
 date:   2015-03-09
 tags: insights

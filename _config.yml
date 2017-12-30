@@ -24,7 +24,8 @@ github_username: dvhart
 
 # Build settings
 markdown: kramdown
-theme: minima
+remote_theme: mmistakes/minimal-mistakes
+minimal_mistakes_skin: neon
 
 # Outputting
 # permalink: date # the default, same as below:
@@ -32,3 +33,43 @@ permalink: /:year/:month/:day/:title.html
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
 #timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+
+plugins:
+  - jekyll-remote-theme
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+
+author:
+  name   : "Darren Hart"
+  avatar : "/assets/images/bio-photo.jpg"
+  bio    : "My awesome biography constrained to a sentence or two goes here."
+  email  : # optional
+  uri    : "https://dvhart.github.io/"
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
+
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true

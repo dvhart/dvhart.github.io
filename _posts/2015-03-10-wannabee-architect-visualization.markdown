@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "Wannabee Architect: Visualization"
 date:   2015-03-10
 tags: sketchup thea architecture remodel
