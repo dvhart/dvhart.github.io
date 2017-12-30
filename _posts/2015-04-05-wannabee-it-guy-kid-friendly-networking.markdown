@@ -1,6 +1,7 @@
 ---
 title:  "Wannabee IT Guy: Kid Friendly Networking"
 date:   2015-04-05
+layout: single
 tags: networking parenting
 ---
 * TOC

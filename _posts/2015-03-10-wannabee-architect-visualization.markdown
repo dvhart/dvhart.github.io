@@ -1,6 +1,7 @@
 ---
 title:  "Wannabee Architect: Visualization"
 date:   2015-03-10
+layout: single
 tags: sketchup thea architecture remodel
 ---
 * TOC
