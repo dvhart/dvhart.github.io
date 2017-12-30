@@ -47,7 +47,11 @@ author:
   avatar : "/assets/images/bio-photo.jpg"
   bio    : "My awesome biography constrained to a sentence or two goes here."
   email  : # optional
+  location: Portland, OR
   uri    : "https://dvhart.github.io/"
+  github: dvhart
+  twitter: dvhart_
+  google_plus: +DarrenHart
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
