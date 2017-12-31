@@ -42,11 +42,11 @@
           {{ page.title | default: site.title | markdownify | remove: "<p>" | remove: "</p>" }}
         {% endif %}
       </h1>
-<!-- dvhart: Disable overlay excerpts
-      {% if page.excerpt %}
+      <!-- dvhart: Make overlay excerpts optional -->
+      {% if page.header.show_overlay_excerpt and page.excerpt %}
+      <!-- dvhart: end changes -->
         <p class="page__lead">{{ page.excerpt | markdownify | remove: "<p>" | remove: "</p>" }}</p>
       {% endif %}
--->
       {% if site.read_time and page.read_time %}
         <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</p>
       {% endif %}
