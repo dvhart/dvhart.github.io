@@ -4,8 +4,19 @@
 
 @charset "utf-8";
 
-// dvhart customization
+/* dvhart customization */
 $primary-color: gray;
+/* reduce font size by 10% from defaults */
+/*
+$type-size-1                  : 2.197em;
+$type-size-2                  : 1.758em;
+$type-size-3                  : 1.407em;
+$type-size-4                  : 1.125em;
+$type-size-5                  : 0.9em;
+$type-size-6                  : 0.675em;
+$type-size-7                  : 0.619em;
+$type-size-8                  : 0.563em;
+*/
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
