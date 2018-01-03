@@ -45,7 +45,7 @@ plugins:
 author:
   name   : "Darren Hart"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "My awesome biography constrained to a sentence or two goes here."
+  bio    : "Technologist. Open Source Enthusiast. Multipotentiate. Collector of hobbies."
   email  : # optional
   location: Portland, OR
   uri    : "https://dvhart.github.io/"
