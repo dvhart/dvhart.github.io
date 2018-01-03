@@ -34,3 +34,7 @@ modifications to them in accordance with their license:
 [Minimal Mistakes](https://github.com/mmistakes/minimal-mistakes),
 Copyright (c) 2013-2017 Michael Rose and contributors.
 Minimal Mistakes is distributed under the terms of the MIT License.
+
+[The Windmills Burn by Chia](https://www.flickr.com/photos/artoftheodd/40961265/in/gallery-141303340@N03-72157690942251984/)
+The Windmills Burn is released under the terms of the CC BY-NC-SA 2.0 License.
+Masthead image derived from The Windmills Burn
